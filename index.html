@@ -802,9 +802,10 @@ ELSE 0 END
     "Region", STRING,
     {
         {"Southwest"},
-        {"Southeast"},
-        {"Northeast"},
-        {"Midwest"}
+        {"Southern"},
+        {"North Pacific"},
+        {"South Pacific"},
+        {"Central"}
     }
 )
 <span class="component-highlight">RegionParamGiveValue</span> = SELECTEDVALUE(<span class="component-highlight">RegionParamGive</span>[Region])
@@ -814,9 +815,10 @@ ELSE 0 END
     "Region", STRING,
     {
         {"Southwest"},
-        {"Southeast"},
-        {"Northeast"},
-        {"Midwest"}
+        {"Southern"},
+        {"North Pacific"},
+        {"South Pacific"},
+        {"Central"}
     }
 )
 <span class="component-highlight">RegionParamTakeValue</span> = SELECTEDVALUE(<span class="component-highlight">RegionParamTake</span>[Region])
@@ -1032,7 +1034,6 @@ IF(
         
         <div class="impact-section">
             <div class="impact-title">Development Impact</div>
-            <p>What this complexity means for your migration project</p>
             
             <div class="impact-stats">
                 <div class="impact-stat">
